@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+  <!-- Sign-up form start -->
+  <div class="container">
+    <header class="header">
+      <picture class="img_container">
+        <source media="(min-width: 950px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
+        <img src="assets/images/illustration-sign-up-mobile.svg" alt="Illustration">
+      </picture>
+    </header>
+    <main class="main">
+      <h1 class="title">Stay updated!</h1>
+      <p class="subtitle">Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul class="list">
+        <li class="list_element">
+          <img src="assets/images/icon-list.svg" alt="Icon list">
+          <div class="list_text">Product discovery and building what matters</div>
+        </li>
+        <li class="list_element">
+          <img src="assets/images/icon-list.svg" alt="Icon list">
+          <div class="list_text">Measuring to ensure updates are a success</div>
+        </li>
+        <li class="list_element">
+          <img src="assets/images/icon-list.svg" alt="Icon list">
+          <div class="list_text">And much more!</div>
+        </li>
+      </ul>
+      <form action="#" name="email_form">
+        <fieldset>
+          <div class="legend_container">
+            <div class="form_title">Email address</div>
+            <div class="email_error">Valid email required</div>
+          </div>
+          <input type="email" name="email" id="email_input" placeholder="email@company.com" required oninvalid="this.setCustomValidity(' ')"
+          oninput="this.setCustomValidity(' ')">
+        </fieldset>
+        <button type="submit" name="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </main>
+  </div>
+  <!-- Sign-up form end -->
+  <!-- Success message start -->
+  <div class="submit_container hide">
+    <div class="submit_msg">
+      <img class="success_icon" src="assets/images/icon-success.svg" alt="Success">
+      <h2 class="title submit_title">Thanks for subscribing!</h2>
+      <p class="subtitle success_info">A confirmation email has been sent to <strong>ash@loremcompany.com</strong>. 
+      Please open it and click the button inside to confirm your subscription.</p>
+    </div>
+    <button type="button">Dismiss message</button>
+  </div>
+  <!-- Success message end -->
+  <script src="app.js"></script>
+</body>
+</html>
