@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/newsletter-signup-form-vanilla-javascript-8fLFBjtQd4)
 - Live Site URL: [Github Live Site](https://manuelseitz.github.io/newsletter-sign-up)
 
 ## My process
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned a lot about the basics of JavaScript, this is my first project using it.
+I learned a lot about the basics of JavaScript, this is my first project using it.<br>
 Modify HTML and CSS with JavaScript is just amazing.
 
 ## Author
